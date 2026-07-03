@@ -982,6 +982,62 @@ h3 {
   color: var(--muted);
 }
 
+.quote-form small a {
+  color: var(--green-dark);
+  font-weight: 800;
+  border-bottom: 1px solid currentColor;
+}
+
+.policy-wrap {
+  padding-top: 0;
+}
+
+.policy-card {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: clamp(28px, 5vw, 64px);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 250, 240, 0.82);
+  box-shadow: var(--shadow);
+}
+
+.policy-card h2 {
+  margin-bottom: 22px;
+  font-size: clamp(2rem, 4vw, 3.6rem);
+}
+
+.policy-card h3 {
+  margin: 34px 0 12px;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: clamp(1.45rem, 3vw, 2rem);
+}
+
+.policy-card p,
+.policy-card li,
+.policy-card address {
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+.policy-card ul {
+  display: grid;
+  gap: 8px;
+  padding-left: 22px;
+}
+
+.policy-card address {
+  padding: 20px;
+  border-left: 3px solid var(--gold);
+  background: rgba(194, 154, 69, 0.1);
+  font-style: normal;
+}
+
+.policy-card a {
+  color: var(--green-dark);
+  font-weight: 800;
+}
+
 .floating-actions {
   position: fixed;
   right: 20px;
